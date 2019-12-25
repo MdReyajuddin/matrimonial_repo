@@ -1,0 +1,28 @@
+INFO:root:a new request
+INFO:root:request completed 
+INFO:root:a new request
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "D:/matrimonial/marriageweb/tests.py", line 7, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:request completed 
+INFO:root:a new request
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "D:/matrimonial/marriageweb/tests.py", line 6, in <module>
+    y=int(input("enter 2nd number"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:request completed 
+INFO:root:a new request
+ERROR:root:invalid literal for int() with base 10: 'RE'
+Traceback (most recent call last):
+  File "D:/matrimonial/marriageweb/tests.py", line 5, in <module>
+    x=int(input("enter 1st number"))
+ValueError: invalid literal for int() with base 10: 'RE'
+INFO:root:request completed 
+INFO:root:a new request
+INFO:root:request completed 
+INFO:root:a new request
+INFO:root:request completed 
+INFO:root:a new request
